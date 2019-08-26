@@ -1,0 +1,74 @@
+html, body {
+    background: #fff;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*按钮的公共样式*/
+.more a {
+    font-size: 16px;
+    color: #FFF;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #6ea145;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.more a:hover {
+    color: #6ea145;
+    background: #fff;
+    text-decoration: none;
+}
+
+/*除index之外的 头部样式*/
+.module {
+    padding: 5em 0;
+}
+#header .header_wrap {
+    min-height: 300px;
+}
+#header .header_info {
+    display: none;
+}
+@media (max-width: 992px) {
+    #header .header_wrap {
+        min-height: 181px;
+    }
+    .module  {
+        padding: 4em 0;
+    }
+}
+@media (max-width: 768px) {
+    .module  {
+        padding: 3em 0;
+    }
+}
+@media (max-width: 480px) {
+    .module {
+        padding: 2em 0;
+    }
+    #header .header_wrap {
+        min-height: 136px;
+    }
+}
+
+
